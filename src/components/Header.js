@@ -26,7 +26,7 @@ function Header({ user }) {
         <img
           style={{ width: "40px", height: "40px" }}
           src={logo}
-          alt={`${user.name} profile picture`}
+          alt={`${user.name} profile`}
         />
         <Button>Logout</Button>
       </div>
