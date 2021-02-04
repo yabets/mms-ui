@@ -1,0 +1,6 @@
+.Footer__main {
+  font-size: 0.8rem;
+  color: var(--light-voilet);
+  padding: 1rem 2rem;
+  flex-shrink: 0;
+}
