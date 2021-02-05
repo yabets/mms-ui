@@ -3,6 +3,7 @@ import Toolbar from "../../contianers/Toolbar";
 import Footer from "../../contianers/Footer";
 import Hand from "../../assets/hand.png";
 import "./index.css";
+import { Link } from "react-router-dom";
 
 const Home = () => (
   <div className="Home__page">
@@ -18,7 +19,9 @@ const Home = () => (
           sodales, a tempus nunc ullamcorper.
         </article>
         <div className="Home__login">
-          <Button>Login</Button>
+          <Link to="/login">
+            <Button>Login</Button>
+          </Link>
         </div>
       </section>
       <section className="Home__hand">

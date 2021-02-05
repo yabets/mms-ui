@@ -8,7 +8,7 @@ const Button = styled.button`
   font-size: 1rem;
   font-weight: 500;
   outline: none;
-  border-radius: 5%;
+  border-radius: 5px;
   box-shadow: 0px 4px 8px var(--dark-voilet-shadow);
   border: none;
 `;

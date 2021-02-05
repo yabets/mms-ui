@@ -12,6 +12,10 @@
   height: 2.2rem;
 }
 
+.Toolbar__logo a {
+  text-decoration: none;
+}
+
 .Toolbar__login {
   width: 7rem;
   height: 2rem;

@@ -1,0 +1,97 @@
+.Login__columns {
+  height: 100vh;
+}
+
+.Login__main {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Login__form {
+  margin: auto;
+  padding: 3rem 2rem;
+  max-width: 450px;
+}
+
+.Login__title {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.Login__description {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.Login__formGroup {
+  margin: 1rem 0;
+}
+
+.Login__form--label {
+  color: #756f86;
+}
+
+.Login__form--input {
+}
+
+.Login--button {
+  height: 3.5rem;
+  margin: 1rem 0;
+}
+
+.Login__hand {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .Login__columns {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .Login__toolbar {
+    display: none;
+  }
+
+  .Login__hand {
+    background-color: var(--dark-voilet);
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .Login__logo {
+    position: absolute;
+    left: 10%;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+  }
+
+  .Login__hand--img {
+    align-self: flex-end;
+    margin-right: 20%;
+  }
+
+  .Login__main {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-shrink: 0;
+  }
+
+  .Login__form {
+    padding: 3rem 2rem;
+    max-width: 450px;
+    margin: auto;
+  }
+}

@@ -1,14 +1,20 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Logo from "../../components/Logo";
+import Login from "../../pages/Login";
 import "./index.css";
 
 const Toolbar = () => (
   <header className="Toolbar__main">
     <div className="Toolbar__logo">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
     </div>
     <div className="Toolbar__login">
-      <Button>Login</Button>
+      <Link to="/login">
+        <Button>Login</Button>
+      </Link>
     </div>
   </header>
 );
