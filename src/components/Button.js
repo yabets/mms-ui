@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-  color: var(--broken-white);
-  background: var(--light-blue);
+  color: ${(props) =>
+    props.primary ? "var(--white-blue)" : "var(--broken-white)"};
+  background: ${(props) => (props.primary ? "white" : "var(--light-blue)")};
   width: 100%;
   height: 100%;
   font-size: 1rem;

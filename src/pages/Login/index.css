@@ -76,6 +76,9 @@
   .Login__hand--img {
     align-self: flex-end;
     margin-right: 20%;
+    animation: moveLeft;
+    animation-duration: 350ms;
+    animation-timing-function: ease-in;
   }
 
   .Login__main {
@@ -93,5 +96,15 @@
     padding: 3rem 2rem;
     max-width: 450px;
     margin: auto;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(50vw);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
