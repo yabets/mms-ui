@@ -9,12 +9,16 @@ const Home = () => (
   <div className="Home__page">
     <Toolbar />
     <div className="Home__columns">
-      <Profile />
-      <Widget title="Payments" color="dark">
-        <p>Your recent payments</p>
-      </Widget>
-      <Widget title="Beneficiaries" color="light" />
-      <Events />
+      <div className="Home__aside">
+        <Profile />
+        <Widget title="Payments" color="dark">
+          <p>Your recent payments</p>
+        </Widget>
+        <Widget title="Beneficiaries" color="light" />
+      </div>
+      <div className="Home__events">
+        <Events />
+      </div>
     </div>
     <Footer />
   </div>

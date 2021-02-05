@@ -16,11 +16,18 @@
 }
 
 .Profile__name {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .Profile__edit--button {
   height: 2rem;
   width: 7rem;
+}
+
+@media (min-width: 860px) {
+  .Profile__image {
+    width: 6rem;
+    height: 6rem;
+  }
 }

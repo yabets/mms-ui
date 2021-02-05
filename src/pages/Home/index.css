@@ -7,7 +7,9 @@
 
 .Home__columns {
   width: 100%;
+  max-width: 25rem;
   padding: 4rem 2rem;
+  margin: auto;
   flex: 1 0 auto;
 }
 
@@ -22,28 +24,18 @@
   .Home__columns {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding: 3rem;
-    padding-right: 0;
     max-width: 1200px;
     margin: 0 auto;
   }
-  .Home__main {
-    width: 30%;
-    max-width: 460px;
+  .Home__events {
+    order: -1;
+    margin-right: 2rem;
+    width: 70%;
   }
 
-  .Home__hand {
-    display: block;
-    background: var(--dark-voilet);
-    margin: 4rem 2rem;
-    width: 480px;
-    height: 480px;
-    border-radius: 50%;
-    text-align: center;
-  }
-
-  .Home__hand--img {
-    margin-top: -50px;
+  .Home__aside {
+    display: flex;
+    flex-direction: column;
   }
 }
