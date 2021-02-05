@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import Logo from "../../components/Logo";
-import Login from "../../pages/Login";
 import "./index.css";
 
 const Toolbar = () => (
