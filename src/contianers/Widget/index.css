@@ -1,0 +1,30 @@
+.Widget__contianer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.dark {
+  background: var(--dark-voilet);
+  color: white;
+}
+
+.light {
+  background: var(--white-border);
+  color: var(--dark-voilet);
+}
+
+.Widget__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+  height: 2.6rem;
+}
+
+.Widget__title {
+  font-size: inherit;
+}

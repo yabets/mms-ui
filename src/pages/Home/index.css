@@ -5,9 +5,9 @@
   justify-content: space-between;
 }
 
-.Home__main {
+.Home__columns {
   width: 100%;
-  padding: 4rem 3rem 4rem 2rem;
+  padding: 4rem 2rem;
   flex: 1 0 auto;
 }
 
@@ -16,16 +16,6 @@
   font-size: 2.2rem;
   font-weight: 600;
   padding: 0.5rem 0;
-}
-
-.Home__login {
-  margin-top: 4rem;
-  height: 3.5rem;
-  width: 10rem;
-}
-
-.Home__hand {
-  display: none;
 }
 
 @media (min-width: 860px) {

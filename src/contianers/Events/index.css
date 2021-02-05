@@ -1,0 +1,39 @@
+.Events__container {
+  background: var(--broken-white);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.Events__search--box {
+  display: flex;
+  height: 3.4rem;
+  justify-content: space-between;
+  margin: 1.6rem 0;
+}
+
+.Events__search--input {
+  margin-right: 0.5rem;
+  width: 70%;
+}
+
+.Event__sort {
+  width: 30%;
+  height: 100%;
+  padding: 0.5rem;
+  background: white;
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid var(--white-border);
+  border-radius: 5px;
+}
+
+.Event__body {
+  margin: 1rem 0;
+  height: 2.7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Event__view--button {
+  width: 6rem;
+  height: 2rem;
+}

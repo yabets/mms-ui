@@ -1,0 +1,26 @@
+.Profile__main {
+  display: flex;
+}
+
+.Profile__image {
+  width: 4rem;
+  height: 4rem;
+  background: var(--voilet);
+}
+
+.Profile__description {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Profile__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Profile__edit--button {
+  height: 2rem;
+  width: 7rem;
+}

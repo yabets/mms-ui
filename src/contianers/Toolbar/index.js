@@ -12,7 +12,7 @@ const Toolbar = () => (
     </div>
     <div className="Toolbar__login">
       <Link to="/login">
-        <Button>Login</Button>
+        <Button primary>Logout</Button>
       </Link>
     </div>
   </header>

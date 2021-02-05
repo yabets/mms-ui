@@ -1,22 +1,9 @@
-import styled from "styled-components";
-import EventCard from "../components/EventCard";
+import Button from "../../components/Button";
+import Card from "../../components/Card";
+import CardTitle from "../../components/CardTitle";
+import Search from "../Search";
+import "./index.css";
 
-const Title = styled.h1`
-  width: 142px;
-  height: 37px;
-  text-align: left;
-  font: normal normal 600 28px/22px IBM Plex Sans;
-  letter-spacing: 0px;
-  color: #2c2738;
-  opacity: 1;
-`;
-const Containter = styled.div`
-  width: 694px;
-  height: 901px;
-  background: #ebf4f8 0% 0% no-repeat padding-box;
-  border-radius: 13px;
-  opacity: 1;
-`;
 const events = [
   {
     id: 1,
@@ -37,17 +24,31 @@ const events = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac nisl tellus. Aliquam erat volutpat. Morbi at volutpat felis. Nullam consequat pharetra tellus. Phasellus viverra libero nec augue maximus scelerisque. Nulla id laoreet arcu. Cras suscipit odio nec diam sodales, a tempus nunc ullamcorper.",
   },
 ];
-const Event = () => {
+
+const Events = () => {
   return (
-    <div>
-      <Title>Our Events</Title>
-      <Containter>
-        {events.map((event) => (
-          <EventCard {...event} />
-        ))}
-      </Containter>
-    </div>
+    <section className="Events__container">
+      <h1 className="Events__title">Our Events</h1>
+      <div className="Events__search--box">
+        <div className="Events__search--input">
+          <Search />
+        </div>
+
+        <select className="Event__sort" htmlName="sort">
+          <option>Sort </option>
+        </select>
+      </div>
+      {events.map((event) => (
+        <Card key={event.id}>
+          <CardTitle>{event.title}</CardTitle>
+          <p className="Event__body">{event.body}</p>
+          <div className="Event__view--button">
+            <Button>View</Button>
+          </div>
+        </Card>
+      ))}
+    </section>
   );
 };
 
-export default Event;
+export default Events;
