@@ -1,0 +1,35 @@
+.Modal__main {
+  position: fixed;
+  left: 15%;
+  top: 10vh;
+  width: 70vw;
+  max-width: 600px;
+  height: auto;
+  z-index: 55;
+}
+
+.Modal__close--button {
+  position: absolute;
+  right: 0.5rem;
+  top: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.Modal__datetime {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.Modal__event--icon {
+  color: var(--light-blue);
+}
+
+.Modal__icon {
+  margin-right: 0.2rem;
+}
+
+.Modal__price {
+  color: white;
+}
