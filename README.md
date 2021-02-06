@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Members managment system
+
+This application is build in the context of Ethiopian edire(አድር). Edire is a
+membership system members make monthly contributions. The monthly contribution
+is later used for member's family member funeral ceremoney. The contribution
+also used for charity in form of sponsorship.
+
+Link to the [demo](https://quizzical-mccarthy-f557e8.netlify.app/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
