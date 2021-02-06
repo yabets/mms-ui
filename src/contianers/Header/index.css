@@ -1,0 +1,23 @@
+.Header__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.Header__bars {
+  background: var(--white-border);
+  color: var(--light-blue);
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.Header__bars:hover {
+  background-color: var(--white-blue);
+  cursor: pointer;
+}
